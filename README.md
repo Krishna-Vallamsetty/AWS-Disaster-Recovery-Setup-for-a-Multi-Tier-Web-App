@@ -31,7 +31,8 @@ This diagram shows the complete multi-region architecture.
 ---
 ### Live Failover Test Demonstration
 
-[cite_start]The following screenshots document the successful live failover test conducted on September 14, 2025[cite: 34]. [cite_start]The test simulated a critical failure of the primary application to validate the readiness of the disaster recovery environment[cite: 42, 43].
+The following screenshots document the successful live failover test conducted on September 14, 2025. 
+The test simulated a critical failure of the primary application to validate the readiness of the disaster recovery environment.
 
 **1. Before the Test: Primary Site is Healthy**
 
@@ -41,13 +42,13 @@ The primary application in `ap-south-1` was confirmed to be online and serving t
 
 **2. After Simulating Failure: Primary Site is Unreachable**
 
-[cite_start]After deleting the listener on the primary Application Load Balancer, the site immediately became unreachable, confirming a successful failure simulation[cite: 43].
+After deleting the listener on the primary Application Load Balancer, the site immediately became unreachable, confirming a successful failure simulation.
 
 ![Primary Site Failed](screenshots/2-primary-site-failed.png)
 
 **3. After Simulating Failure: DR Site Remains Healthy**
 
-The disaster recovery application in `us-east-1` was completely unaffected by the primary site's failure and remained online to serve traffic. [cite_start]This proved the success of the DR strategy[cite: 44, 63].
+The disaster recovery application in `us-east-1` was completely unaffected by the primary site's failure and remained online to serve traffic. This proved the success of the DR strategy.
 
 ![DR Site Working After Failover](screenshots/3-dr-site-working-after-failover.png)
 
