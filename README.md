@@ -29,5 +29,5 @@ This diagram shows the complete multi-region architecture.
 
 ---
 ### Project Deliverables
-* [Disaster Recovery Runbook.docx](Disaster%20Recovery%20Runbook.docx): A step-by-step guide for the failover procedure.
-* [RPO&RTO Analysis.docx](RPO&RTO%20Analysis.docx): A full report on the project's test results, challenges, and success criteria.
+* [Disaster Recovery Runbook.pdf](Disaster%20Recovery%20Runbook.pdf): A step-by-step guide for the failover procedure.
+* [RPO&RTO Analysis.pdf](RPO&RTO%20Analysis.pdf): A full report on the project's test results, challenges, and success criteria.
